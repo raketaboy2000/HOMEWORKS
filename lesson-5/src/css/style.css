@@ -1,0 +1,21 @@
+h1,h2{
+  text-align: center;
+}
+body{
+  background-color: lightcyan;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+.zametka{
+  font-weight: bold;
+}
+ul{
+  border:1px solid #ccc;
+}
+p{
+  font-size: 20px;
+  color: brown;
+}
+
