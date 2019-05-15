@@ -8,5 +8,5 @@
   https://raketaboy2000.github.io/HOMEWORKS/lesson-4/src/
   # Урок №5:
   https://raketaboy2000.github.io/HOMEWORKS/lesson-5/src/
-  # Урок №56
+  # Урок №6
   https://raketaboy2000.github.io/HOMEWORKS/lesson-6/src/
