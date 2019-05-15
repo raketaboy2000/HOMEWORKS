@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f6;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.wrap {
+  position: relative;
+  width: 1000px;
+
+
+}
+
+.card {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 503px;
+  margin: 50px auto;
+  background-color: #fff;
+  max-width: 1010px;
+  min-width: 991px;
+  width: auto;
+}
+
+.img {
+  display: inline-block;
+  margin: 64px 48px;
+  vertical-align: middle;
+}
+
+.description {
+  max-width: 200px;
+  height: 375px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 55px;
+}
+
+h2 {
+  font-size: 23px;
+  font-weight: 800;
+}
+
+.description p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.text-discr {
+  width: 393px;
+}
+
+.price p {
+  margin-top: 55px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.price h4 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
+}
+
+a.button-buy {
+  margin-top: 44px;
+  display: inline-block;
+  width: 252px;
+  height: 50px;
+  text-align: center;
+  padding-top: 13px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  border-radius: 1px;
+  background: #ec744a;
+  transition: 0.2s;
+}
+
+a.button-buy:hover {
+  background: rgb(190, 87, 28);
+}
+
+a.button-buy:active {
+  background: rgb(33, 147, 90);
+  box-shadow: 0 3px rgb(190, 87, 28);
+}
