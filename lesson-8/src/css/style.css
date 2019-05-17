@@ -1,0 +1,147 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  color: #32325f;
+}
+.container{
+  max-width: 1140px;
+  width: 96%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+.brand{
+color: #95989a;
+font-size: 20px;
+font-weight: 700;
+text-transform:uppercase;
+
+}
+.social{
+  text-decoration:none;
+  margin-right: 20px;
+}
+.hero{
+  padding-top: 70px;
+  padding-bottom: 190px;
+  background-color: #f4f5f7;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-text{
+  width: 50%;
+  color: #32325f;
+}
+.subtitle{
+  font-size: 20px;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 15px;
+}
+.title{
+color: #32325f;
+font-size: 48px;
+font-weight: 700;
+}
+.description{
+
+color: #32325f;
+
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+}
+.pricetag{
+  
+  display: block;
+  margin-bottom:20px;
+
+ 
+ font-size: 48px;
+ font-weight: 400;
+
+font-size: 20px;
+font-weight: 400;
+}
+.price{
+ display: block;
+ margin-bottom: 49px;
+
+
+font-size: 48px;
+font-weight: 400;
+}
+.btn{
+  text-decoration:none;
+box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+border-radius: 6px;
+padding: 20px 30px;
+color:white;
+background-color:grey;
+}
+.btn-success{
+  background-color: #2dce89;
+  margin-right: 20px;
+}
+.btn-primary{
+  background-color: #5e72e4;
+}
+.section{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.section-subtitle{
+  display: block;
+  margin-bottom: 16px;
+  font-size:20px;
+  font-weight: 400;
+}
+.section-title{
+  display: block;
+font-size: 48px;
+font-weight: 700;
+}
+.wrap{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.block{
+  width: 23%;
+  margin-right: 2%;
+
+}
+.block-text{
+
+font-size: 16px;
+font-weight: 400;
+margin: 40px 0;
+line-height: 1.4;
+}
+.footer{
+  background-color: #32325f;
+  color:white;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.footer-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-block{
+  width: 33%;
+
+}
+.footer-title{
+  font-size: 24px;
+font-weight: 700;
+}
