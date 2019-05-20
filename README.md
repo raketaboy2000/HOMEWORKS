@@ -12,3 +12,5 @@
   https://raketaboy2000.github.io/HOMEWORKS/lesson-6/src/
   # Урок №7
   https://raketaboy2000.github.io/HOMEWORKS/lesson-7/src/
+  # Урок №9
+  https://raketaboy2000.github.io/HOMEWORKS/lesson-9/src/
