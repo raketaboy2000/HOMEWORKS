@@ -14,3 +14,5 @@
   https://raketaboy2000.github.io/HOMEWORKS/lesson-7/src/
   # Урок №9
   https://raketaboy2000.github.io/HOMEWORKS/lesson-9/src/
+  # Урок №10
+  https://raketaboy2000.github.io/HOMEWORKS/lesson-10/src/
