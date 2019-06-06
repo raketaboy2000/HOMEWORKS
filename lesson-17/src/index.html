@@ -5,8 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./css/style.css">
-  <title>Домашняя работа №7</title>
+  <link rel="stylesheet" href="./css/header/style.css">
+  <link rel="stylesheet" href="./css/hero/style.css">
+  <link rel="stylesheet" href="./css/offer/style.css">
+  <link rel="stylesheet" href="./css/modal/style.css">
+  <link rel="stylesheet" href="./fonts/stylesheet.css">
+  <title>Домашняя работа №15</title>
 </head>
 
 <body>
@@ -21,9 +25,8 @@
         <span>Калуга, Москва, МО</span>
         <p>+7 (495) 42-251-31</p>
       </div>
-     
-          <button id="button" class="button">Перезвоните мне</button>
-      
+      <div id="button" class="button">
+        <button>Перезвоните мне</button></div>
 
     </div>
   </header>
@@ -75,7 +78,8 @@
         </div>
       </div>
     </section>
-  
+  </main>
+
   <section class="offer section">
     <div class="container">
       <div class="offer-block">
@@ -84,36 +88,29 @@
           дизайн-проект Вашего жилья
           и реализуем его!
         </h2>
-        <!-- /.section-title -->
         <span class="section-subtitle offer__subtitle">
           Оставьте заявку на разработку
           бесплатного дизайн-проекта!
         </span>
-        <!-- /.section-subtitle -->
-        <form action="#" class="form offer_form">
+        <form action="" class="form offer__form">
           <input type="text" class="input offer__input" placeholder="Ваше имя">
-          <input type="tell" class="input offer__input" placeholder="Ваш телефон">
+          <input type="tel" class="input offer__input" placeholder="Ваш телефон">
           <button class="button offer__button">Получить бесплатный дизайн-проект</button>
         </form>
-        <!-- /.form offer_form -->
       </div>
-      <!-- /.offer-block -->
     </div>
-    <!-- /.container -->
   </section>
-  <!-- /.offer -->
-</main>
-<div class="modal" id="modal">
-  <div class="modal-dialog">
-    <button class="modal-dialog__close" id="close">&times;</button>
-    <h4 class="modal-dialog__title">
-      Всплывающее окно
-    </h4>
+  <div class="modal" id="modal">
+    <div class="modal-dialog">
+      <button class="modal-dialog__close" id="close">
+        &times;
+      </button>
+      <h4 class="modal-dialog__title">
+        Вспылающее окно
+      </h4>
+    </div>
   </div>
-  <!-- /.modal-dialog -->
-</div>
-<!-- /.modal -->
-<script src="js/main.js"></script>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
